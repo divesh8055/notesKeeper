@@ -1,0 +1,39 @@
+body {
+	background-image: url(bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+.heading {
+	color: white;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.mainSpace {
+	background-color: #464646;
+}
+
+.noteCard {
+	background-color: darkolivegreen;
+	color: antiquewhite;
+}
+.noteCard:hover {
+	background-color: dimgrey;
+	transform: scale(1.05);
+}
+
+.link {
+	color: burlywood;
+}
+.textMain {
+	background-color: beige;
+}
+@media only screen and (max-width: 767px) {
+	body {
+		background-image: url(bg.jpg);
+	}
+}
